@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="numberOne">عدد اول</string>
+    <string name="numberTwo">عدد دوم</string>
+    <string name="sum">جمع</string>
+</resources>
