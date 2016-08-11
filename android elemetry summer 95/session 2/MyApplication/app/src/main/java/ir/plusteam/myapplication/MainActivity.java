@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 int result=n1+n2;
 
                 //namayesh hasele jam
-                textView.setText(result);
+                textView.setText(result+"");
             }
         });
 
