@@ -1,0 +1,27 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:background="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:scrollbars="vertical"
+        android:maxLines="4"
+        android:layout_marginLeft="100dp"
+        android:paddingLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+    </LinearLayout>
