@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/p1"
+        android:layout_margin="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/picture"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp" />
+<TextView
+    android:id="@+id/txtName"
+    android:layout_marginTop="6dp"
+    android:layout_toRightOf="@+id/picture"
+    android:text="Name"
+    android:textSize="20sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cat"
+        android:text="Cat"
+        android:textColor="@color/colorPrimary"
+        android:layout_toRightOf="@+id/picture"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:text="Delete"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
